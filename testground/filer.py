@@ -1,9 +1,9 @@
 # Skapa och skriv till en fil i samma mapp
-with open("exempelfil.txt", "w") as fil:
-    fil.write("Detta är en exempelfil.\nExtra text 2.")
+with open("min.txt", "w") as fil:
+    fil.write("Detta är en exempelfil.\nExtra text 3.")
 
 # Läsa från en fil
-with open("exempelfil.txt", "r") as fil:
+with open("min.txt", "r") as fil:
     innehåll = fil.read()
     print("Filinnehåll:", innehåll)
 
